@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js_practice</title>
+    <!-- css link  -->
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/bootstrap-icons.css">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/media.css">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+<section class="js_practice">
+  <div class="container">
+    <div class="row text-center m-5">
+      <div class="col-lg-12">
+        <h2 id="text_change">Hey there</h2>
+           <button onclick="textChange()" type="button" class="btn btn-primary"> click here and see more line</button>
+        
+
+
+     <div class="button_two mt-5">
+      <h2 id="fontSizCchange">Easy to learn</h2>
+      <button onclick="fontSize()" type="button" class="btn btn-primary"> click here</button>
+     </div>
+
+
+     <div class="button_three mt-5">
+      <h2 id="fontChange">Hello</h2>
+      <button onclick=" hide()" type="button" class="btn btn-primary"> click here </button>
+     </div>
+
+   
+     <div class="inbody mt-5">
+      <h5>  code is inserted between script tag</h5>
+      <p id="inbody"></p>
+     </div>
+      </div>
+
+   
+      <div class="button_two mt-5">
+        <h2 id="bkChange">Easy to learn</h2>
+        <button onclick="background()" type="button" class="btn btn-primary"> click here</button>
+       </div>
+   
+   
+      <div class="button_four mt-5">
+        <p id="show_item">Before your coffe gets cold</p>
+         <button onclick="show()" type="button" class="btn btn-primary"> click here </button>
+        </div>
+  
+      
+    </div>
+
+<!-- 
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+    <img id="myImage" src="image/pic_bulboff.gif" class="img-fluid">
+    
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button> -->
+
+
+
+
+
+
+  </div> 
+</section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      document.getElementById('inbody').innerHTML="My first try";
+    </script>
+</body>
+</html>
